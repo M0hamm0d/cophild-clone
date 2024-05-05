@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1290px;
+    margin: 0px auto;
+    padding: 0px 24px;
+}
+.colphid-logo img{
+    max-width: 200px;
+}
+.top-navigation{
+    display: flex;
+}
+.top-navigation a{
+    padding: 10.2px;
+    display: flex;
+    color: #4A5568;
+    text-decoration: none;
+    align-items: center;
+    font-size: 17px;
+}
+.build-future-inner{
+    display: flex;
+    background-color: #0C5278;
+    align-items: center;
+    max-width: 1290px;
+    margin: 0px auto;
+    padding: 40px 50px;
+}
+.cophild-teacher{
+    padding-right: 80px;
+}
+.build-future-outer{
+    margin-bottom: 64px;
+}
+.build-future-inner h2{
+    font-size: 40px;
+    color: #fff;
+}
+.build-future-inner p{
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.registration-button{
+    padding: 10px 0px;
+}
+.exam-registration,.training-registration{
+    text-decoration: none;
+    padding: 14px 28px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 3px;
+}
+.exam-registration{
+    color: #fff;
+    background-color: #056AA1;
+}
+.training-registration{
+    color: #007bd0;
+    background-color: #fff;
+}
+.build-future-inner img{
+    max-width: 550px;
+    max-height: 550px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0px 3.2rem;
+    margin-bottom: 64px;
+}
